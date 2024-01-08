@@ -69,8 +69,22 @@ nav ul li a {
     padding: 14px 70px;
     border-radius: 50px;
     margin-top: 20px
-
 }
+
+.content audio { 
+        text-decoration: none;
+        display: inline-block;
+        color: #fff;
+        font-size: 24px;
+        /* border: 2px solid #fff; */
+        /* padding: 14px 70px; */
+        border-radius: 50px;
+        height: 3rem;
+        padding-top: 20px;
+    
+    }
+    
+
 
 .bg-video {
     position: absolute;
@@ -86,4 +100,12 @@ nav ul li a {
     }
 }
 
+ul {
+    font-weight: bold;
+}
 
+.buttons {
+    display: flex;
+    border: 1px solid white;
+    position: relative;
+}
