@@ -5,25 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animated Wallpaper Studio Ghibli</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+
 </head>
 <body>
     <div class="hero">
         <video autoplay muted loop plays-inline class="bg-video" playsinline>
-            <source src="Media/video3.mp4" type="video/mp4">
+            <source src="Media/video.mp4" type="video/mp4">
         </video>
-        <nav>
-            <img src="Media/logo.png" class="logo">
-            <ul>
-                <li><a href="https://github.com/jamesdiffeycoding" target="_blank">My GitHub</a></li>
-                <li><a href="https://developer-lessons-react.vercel.app/" target="_blank">Local Storage Experiment</a></li>
-                <li><a href="https://jamesdiffeycoding.github.io/Tailwind-Responsive-Grid-Experiments/" target="_blank">Responsive Tailwind Grid Experiment</a></li>
-                <li><a href="https://www.linkedin.com/in/jamesdiffey/" target="_blank">LinkedIn</a></li>
-            </ul>
-        </nav>
-        <div class="content">
-            <h1>Enjoy...</h1>
-            <a href="https://github.com/jamesdiffeycoding" target="_blank"> My GitHub</a>
-            <audio controls autoplay loop> <source src="Media/audio3.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio>
+        <div>
+            <nav id="navbar">
+                <div class="navbar-item-width studio-ghibli">
+                    <p>Studio Ghibli</p>
+                </div>
+                <div class="navbar-item-width">
+                    <audio controls autoplay loop> <source src="Media/audio.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio>
+                </div>
+                <div class="content">
+                    <p class="headerlink"><a href="https://github.com/jamesdiffeycoding" target="_blank">GitHub</a></p>
+                </div>
+                <div class="content">
+                    <p class="headerlink"><a href="https://www.linkedin.com/in/jamesdiffey/" target="_blank">LinkedIn</a></p>
+                </div>
+            </nav>
+        </div>
+        <div class="toggle">
+            <div id="toggleButton">Hide links and audio</div>
+            
         </div>
     </div>
 </body>
