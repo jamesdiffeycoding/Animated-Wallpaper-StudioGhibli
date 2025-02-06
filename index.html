@@ -1,38 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animated Wallpaper Studio Ghibli</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="main.js" defer></script>
-
-</head>
-<body>
-    <div class="hero">
-        <video autoplay muted loop plays-inline class="bg-video" playsinline>
-            <source src="Media/video.mp4" type="video/mp4">
-        </video>
-        <div>
-            <nav id="navbar">
-                <div class="navbar-item-width studio-ghibli">
-                    <p>Studio Ghibli</p>
-                </div>
-                <div class="navbar-item-width">
-                    <audio controls autoplay loop> <source src="Media/audio.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio>
-                </div>
-                <div class="content">
-                    <p class="headerlink"><a href="https://github.com/jamesdiffeycoding" target="_blank">GitHub</a></p>
-                </div>
-                <div class="content">
-                    <p class="headerlink"><a href="https://www.linkedin.com/in/jamesdiffey/" target="_blank">LinkedIn</a></p>
-                </div>
-            </nav>
-        </div>
-        <div class="toggle">
-            <div id="toggleButton">Hide links and audio</div>
-            
-        </div>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Rendering Studio Ghibli</title>
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
