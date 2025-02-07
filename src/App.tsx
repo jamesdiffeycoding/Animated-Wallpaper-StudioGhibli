@@ -27,7 +27,7 @@ function App() {
         if (vidRef.current) {
           vidRef.current.play();
           vidRef.current.volume = 0;
-          fadeInAudio(0.05, 100);
+          fadeInAudio(0.02, 100);
         }
       }, 3000);
     }
