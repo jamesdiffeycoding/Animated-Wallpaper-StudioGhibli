@@ -21,7 +21,7 @@ function App() {
     if (!playing) {
       setPlaying(true);
       if (btnRef.current && vidRef.current) {
-        vidRef.current.classList.replace("opacity-30", "opacity-100");
+        vidRef.current.classList.replace("opacity-20", "opacity-100");
       }
       setTimeout(() => {
         if (vidRef.current) {
@@ -37,7 +37,7 @@ function App() {
     setTimeout(() => {
       if (btnRef.current && vidRef.current) {
         btnRef.current.classList.replace("opacity-0", "opacity-100");
-        vidRef.current.classList.replace("opacity-0", "opacity-30");
+        vidRef.current.classList.replace("opacity-0", "opacity-20");
       }
     }, 1000);
   }, []);
