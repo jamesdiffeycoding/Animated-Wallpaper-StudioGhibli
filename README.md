@@ -8,6 +8,7 @@ This simple site showcases some of Studio Ghibli's best work. I used building it
 - add thematic gif to background of button, showing on hover ✔️
 - add transitions on page load and as video starts ✔️
 - add Ghibli favicon and fonts ✔️
+- show video controls and download options on-click ✔️
 - compress video by 50% ✔️
  
 ## Things I practiced / learned
