@@ -1,4 +1,4 @@
-# notes
+# Multimedia Studio Ghibli
 
 - learning about videos
 - controls option..
