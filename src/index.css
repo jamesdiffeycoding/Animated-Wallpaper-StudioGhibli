@@ -23,7 +23,7 @@ body {
 }
 
 .start-btn {
-  background-image: url("./welcome.png");
+  background-image: url("/welcome.png");
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,6 +45,6 @@ body {
 }
 
 .start-btn:hover {
-  background-image: url("./welcome.gif");
+  background-image: url("/welcome.gif");
   border: 4px solid whitesmoke;
 }
