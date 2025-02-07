@@ -33,9 +33,9 @@ function App() {
     }
   }
 
-      // fade-in on first load
   useEffect(() => {
     setTimeout(() => {
+       // fade-in on first load
       if (btnRef.current && vidRef.current) {
         btnRef.current.classList.replace("opacity-0", "opacity-100");
         vidRef.current.classList.replace("opacity-0", "opacity-20");
