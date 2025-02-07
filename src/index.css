@@ -48,3 +48,8 @@ body {
   background-image: url("/welcome.gif");
   border: 4px solid whitesmoke;
 }
+
+.start-btn:focus {
+  outline: none;
+  border: 4px solid greenyellow;
+}
