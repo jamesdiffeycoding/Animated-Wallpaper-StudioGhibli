@@ -2,11 +2,12 @@
 
 This simple site showcases some of Studio Ghibli's best work. I used building it to learn about multimedia in HTML.
 
-## Functionality
+## Tasks completed
 
-- display video in HTML using <video> element, rendered to full screen with audio playing by default
-- add thematic gif to background of button, showing on hover
-- add transitions on page load and as video starts
+- display video in HTML using <video> element, rendered to full screen with audio playing by default ✔️
+- add thematic gif to background of button, showing on hover ✔️
+- add transitions on page load and as video starts ✔️
+- add Ghibli favicon and fonts ✔️
 
 ## Things I practiced / learned
 
