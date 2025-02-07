@@ -14,22 +14,44 @@ function App() {
     }, 100);
   }
 
-  function transitionUI() {
+  function transitionUIForVideo() {
     if (btnRef.current && vidRef.current) {
+      btnRef.current.click;
       btnRef.current.style.cursor = "auto";
       btnRef.current.style.opacity = "0";
       vidRef.current.style.opacity = "1";
       vidRef.current.style.zIndex = "1";
     }
+    setTimeout(() => {
+      if (btnRef.current) {
+        btnRef.current.style.display = "none";
+      }
+    }, 3000);
   }
 
   function startVideo() {
     if (vidRef.current) {
+      vidRef.current.volume = 0;
       setTimeout(() => {
         vidRef.current?.play();
+        fadeInAudio();
       }, 4000);
       vidRef.current.muted = false;
     }
+  }
+
+  function fadeInAudio() {
+    let vol = 0;
+    const interval = setInterval(() => {
+      if (vidRef.current) {
+        if (vol < 0.95) {
+          vol += 0.08;
+          vidRef.current.volume = vol;
+        } else {
+          clearInterval(interval);
+        }
+      }
+    }, 400);
   }
 
   transitionInitialOpacities();
@@ -54,7 +76,7 @@ function App() {
         ref={btnRef}
         className="start-btn ghibli-heading-font"
         onClick={() => {
-          transitionUI();
+          transitionUIForVideo();
           startVideo();
         }}
       >
