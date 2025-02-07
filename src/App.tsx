@@ -50,7 +50,7 @@ function App() {
         ref={vidRef}
         aria-label="studio-ghibli-animation"
         onClick={() => {
-          if (vidRef.current) vidRef.current.controls = true;
+          if (playing && vidRef.current) vidRef.current.controls = true;
         }}
         src="/video.mp4"
         muted={!playing}
