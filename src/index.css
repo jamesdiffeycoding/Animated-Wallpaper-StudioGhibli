@@ -27,11 +27,13 @@ video {
 }
 
 .custom-ghibli-gif {
+  background-color: #717170;
   background-image: url("/welcome.png");
   background-size: cover;
   background-position: center;
   border-radius: 100%;
   padding: 1rem;
+  transition: background-image 0.3s ease-in-out;
 }
 
 .custom-ghibli-position-size {
@@ -44,7 +46,6 @@ video {
 }
 
 .custom-ghibli-gif:hover {
-  background-image: url("/welcome.png");
   background-image: url("/welcome.gif");
   border: 4px solid whitesmoke;
 }
