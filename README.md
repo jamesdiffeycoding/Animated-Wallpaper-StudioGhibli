@@ -2,7 +2,7 @@
 
 This simple site showcases some of Studio Ghibli's best work. 
 
-I found making it helped me learn about media elements in web development - videos (and their attributes), GIFs, opacity transitions,the useRef hook for DOM adjustments, and browser specific policies (such as around autoplaying videos muted and how to workaround it). 
+To make this I learned about media elements in web development - videos (and their attributes), GIFs, opacity transitions,the useRef hook for DOM adjustments, and browser specific policies (such as around autoplaying videos muted and how to workaround it). 
 
 ## Tasks completed
 
