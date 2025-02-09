@@ -8,7 +8,7 @@ To make this I learned about media elements in web development - videos (and the
 
 - display video in HTML using the video element, rendered to full screen with audio playing by default ✔️
 - add thematic gif to background of button, showing on hover ✔️
-- add transitions on page load and as video starts ✔️
+- add opacity and audio transitions on page load and as video starts ✔️
 - add Ghibli favicon and fonts ✔️
 - show video controls and download options on-click ✔️
 - compress video by 50% ✔️
