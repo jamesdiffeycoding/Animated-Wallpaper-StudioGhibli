@@ -13,7 +13,5 @@ This simple site showcases some of Studio Ghibli's best work. I used building it
  
 ## Things I practiced / learned
 
-- Through this project I learned about the <video> element
-  --- its inbuilt properties (e.g. controls, muted, autoplay)
-  --- browser behaviours (e.g. autoplay is possible but only muted, except with user interaction)
+- Through this project I learned about the video element its built-im properties (e.g. controls, muted, autoplay) and browser behaviours (e.g. autoplay is possible but only muted, except with user interaction)
 - How to use Refs in React to modify styles and classes
